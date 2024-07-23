@@ -1,0 +1,300 @@
+//http://sdplugin.devmagic.com/api/v3/product/getpackages?packageType=SDSDK-WORKLOAD&version=22.0
+[
+    {
+        "id": "SnapDevelop.Workload.DBServer",
+        "title": "Database connection",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-WORKLOAD",
+        "description": "Build and work with database connections for SQL Server, MySQL, Oracle, and other databases including cloud databases.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "installBytes": 0,
+        "zipBytes": 4291,
+        "published": "2022-12-27T15:34:33.504436Z",
+        "kind": "Other Jobs",
+        "tags": [
+            "database",
+            "data"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 0,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.DBServer.Sqlite",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.PostgreSQL",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.Oracle",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.Odbc",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.MySql",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.MongoDB",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.Informix",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.DBServer.SqlServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Workload.AspNet",
+        "title": "ASP.NET Core Web API development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-WORKLOAD",
+        "description": "Build Web APIs using ASP.NET Core.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "installBytes": 0,
+        "zipBytes": 4358,
+        "published": "2022-12-27T15:34:32.702347Z",
+        "kind": "Web & Cloud",
+        "tags": [],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 0,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": true,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.CSharp",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            },
+            {
+                "id": "SnapDevelop.Grpc",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.NetCoreDbg",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Xunit",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.WebApiTester",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.AspNetCore.WebApi",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Workload.Cloud",
+        "title": "Cloud deployment",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-WORKLOAD",
+        "description": "Kubernetes clustering, Docker container management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "installBytes": 0,
+        "zipBytes": 4198,
+        "published": "2022-12-27T15:34:33.102062Z",
+        "kind": "Web & Cloud",
+        "tags": [],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 0,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Kubernetes",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Docker",
+                "version": "[1.0.0,)",
+                "isSelected": false,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Workload.LowCode",
+        "title": "Low-code development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-WORKLOAD",
+        "description": "Use low-code development projects to complete back-end API and front-end page development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "installBytes": 0,
+        "zipBytes": 4238,
+        "published": "2022-12-27T15:34:33.895078Z",
+        "kind": "Web & Cloud",
+        "tags": [
+            "lowcode"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 0,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.LowCode",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            },
+            {
+                "id": "SnapDevelop.DBServer.Sqlite",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Workload.Web",
+        "title": "Front-end application development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-WORKLOAD",
+        "description": "Front-end development of web applications using HTML, CSS, JavaScript (including JavaScript frameworks).",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "installBytes": 0,
+        "zipBytes": 4242,
+        "published": "2022-12-27T15:34:34.283321Z",
+        "kind": "Web & Cloud",
+        "tags": [],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 0,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Base64Convert",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.JWTDecode",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Web",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            },
+            {
+                "id": "SnapDevelop.Vue",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    }
+]

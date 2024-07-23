@@ -1,0 +1,905 @@
+//http://sdplugin.devmagic.com/api/v3/product/getpackages?packageType=SDSDK-CORE&version=22.0
+[
+    {
+        "id": "SnapDevelop.Features.Debugger",
+        "title": "Debugger",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the code debugging function.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "761a53a8de61e3e47f791465f06b7fe4",
+        "installBytes": 77738842,
+        "zipBytes": 27454026,
+        "published": "2022-12-27T15:32:32.309738Z",
+        "kind": "Core components",
+        "tags": [
+            "Debugger"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.DotNet",
+        "title": ".NET platform",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Enable the development of .NET apps.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "8675f9ef3992b992d5c294de66474664",
+        "installBytes": 81010491,
+        "zipBytes": 28865545,
+        "published": "2022-12-27T15:32:37.830313Z",
+        "kind": "Core components",
+        "tags": [
+            ".NET",
+            "Platform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.PkgManager.NuGet",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            },
+            {
+                "id": "SnapDevelop.Resx",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Features.FindAndReplace",
+        "title": "Find And Replace",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the Find and Replace function.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "bf58a91fb869bb1d230a5f4a24efc082",
+        "installBytes": 4255441,
+        "zipBytes": 1726204,
+        "published": "2022-12-27T15:32:38.627996Z",
+        "kind": "Core components",
+        "tags": [
+            "Find",
+            "and",
+            "Replace"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Management",
+        "title": "Function management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Manage the functions available in DevMagic Studio.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "4036595a676eff6ba0eb16c43403ba3d",
+        "installBytes": 11523928,
+        "zipBytes": 3277966,
+        "published": "2022-12-27T15:32:39.597586Z",
+        "kind": "Core components",
+        "tags": [
+            "Management"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Management.Sd",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Management.Sd",
+        "title": "Account management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide DevMagic Studio account management support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "eb56b554d66229d6d3920653b29abbbe",
+        "installBytes": 3442080,
+        "zipBytes": 1284110,
+        "published": "2022-12-27T15:32:40.221843Z",
+        "kind": "Core components",
+        "tags": [
+            "Account"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Management",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Account",
+        "title": "Account management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide DevMagic Studio account management support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "e6b02cdcc1d5e2cb5602d044927319a6",
+        "installBytes": 2493192,
+        "zipBytes": 904166,
+        "published": "2022-12-27T15:32:40.752197Z",
+        "kind": "Core components",
+        "tags": [
+            "Account"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Compiler",
+        "title": "Compiler",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the compilation function.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "caba31847554439463458d14f94db4de",
+        "installBytes": 2524424,
+        "zipBytes": 914150,
+        "published": "2022-12-27T15:32:41.290654Z",
+        "kind": "Core components",
+        "tags": [
+            "Compiler"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.DBServer",
+        "title": "Database services",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Support database operations.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "95766c595b6c8be92c215f5724698057",
+        "installBytes": 2834696,
+        "zipBytes": 998777,
+        "published": "2022-12-27T15:32:42.443854Z",
+        "kind": "Core components",
+        "tags": [
+            "DBServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Deploy",
+        "title": "Deployment",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Enable project deployments.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "79b16e01d906a10adc9757ba5579f738",
+        "installBytes": 2556680,
+        "zipBytes": 927254,
+        "published": "2022-12-27T15:32:43.014352Z",
+        "kind": "Core components",
+        "tags": [
+            "Deploy"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [
+            {
+                "id": "SnapDevelop.Environments.WebDeploy",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Editor",
+        "title": "Code editor",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the code editting function.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "33009c1fbd3ebad2ad56c00d3715775f",
+        "installBytes": 8471816,
+        "zipBytes": 1847856,
+        "published": "2022-12-27T15:32:43.75267Z",
+        "kind": "Core components",
+        "tags": [
+            "Editor"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Json",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Xml",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.PasteSpecial",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Pdf",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Markdown",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Features.Extensions",
+        "title": "Extension manager",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Manage the extensions.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "e3130be6cd78b2d38304ff3c3cc36413",
+        "installBytes": 6408626,
+        "zipBytes": 2309433,
+        "published": "2022-12-27T15:32:44.576452Z",
+        "kind": "Core components",
+        "tags": [
+            "Extensions"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Layout",
+        "title": "IDE layout customization",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Customize the layout of the controls in the IDE.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "c0345e0f34d88580bc263e5d350e413d",
+        "installBytes": 2605832,
+        "zipBytes": 941973,
+        "published": "2022-12-27T15:32:45.175519Z",
+        "kind": "Core components",
+        "tags": [
+            "Layout"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.LspCore",
+        "title": "language server protocol core",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Package Description",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "7c5c3ce885a124428b2b89e75b670508",
+        "installBytes": 7586300,
+        "zipBytes": 2867560,
+        "published": "2022-12-27T15:32:46.054226Z",
+        "kind": "Core components",
+        "tags": [
+            "LspCore"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [
+            {
+                "id": "SnapDevelop.Environments.NodeJS",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Output",
+        "title": "Output",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide output information.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "c3878d3ed23efde761699b9b7f671faa",
+        "installBytes": 2551593,
+        "zipBytes": 925157,
+        "published": "2022-12-27T15:32:46.62605Z",
+        "kind": "Core components",
+        "tags": [
+            "Output"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.PkgManager",
+        "title": "Package management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide package management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "370a8d7130ca4b770cf9b900e58a308e",
+        "installBytes": 2762208,
+        "zipBytes": 1016792,
+        "published": "2022-12-27T15:32:47.197804Z",
+        "kind": "Core components",
+        "tags": [
+            "Package",
+            "Manager"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.ProjectSystem",
+        "title": "Project management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide project management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "fa3ce9605a3cd9ca523b410470e91794",
+        "installBytes": 2726934,
+        "zipBytes": 978390,
+        "published": "2022-12-27T15:32:47.773788Z",
+        "kind": "Core components",
+        "tags": [
+            "Project",
+            "System"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Resources",
+        "title": "Resource management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide resource management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "f017dcbcaa7e8598cf139d1d87e22969",
+        "installBytes": 2585352,
+        "zipBytes": 938704,
+        "published": "2022-12-27T15:32:48.313174Z",
+        "kind": "Core components",
+        "tags": [
+            "Resources"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.SolutionExplorer",
+        "title": "Solution resolution",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Load and parse solutions.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "3e2311a3af25a7664c2ce49b40b2e97f",
+        "installBytes": 2764040,
+        "zipBytes": 1003369,
+        "published": "2022-12-27T15:32:48.877246Z",
+        "kind": "Core components",
+        "tags": [
+            "Solution",
+            "Explorer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.SourceControl",
+        "title": "Source code management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide Git, SVN and other source code management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "408cb3563192f4b6725308223ff47abd",
+        "installBytes": 2510088,
+        "zipBytes": 910692,
+        "published": "2022-12-27T15:32:49.409681Z",
+        "kind": "Core components",
+        "tags": [
+            "SourceControl"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.VisualSVN",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Git",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Features.StartPage",
+        "title": "Start page",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the Start Page.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "ac5ad757cb7f18ba9c04bf0aa4743a52",
+        "installBytes": 2776012,
+        "zipBytes": 1058633,
+        "published": "2022-12-27T15:32:50.001925Z",
+        "kind": "Core components",
+        "tags": [
+            "Start",
+            "page",
+            "Core",
+            "components"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Terminal",
+        "title": "Terminal",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide a terminal interface.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "dea6f2a9645ce197cf7df49064041164",
+        "installBytes": 76234881,
+        "zipBytes": 26913149,
+        "published": "2022-12-27T15:32:55.598297Z",
+        "kind": "Core components",
+        "tags": [
+            "Terminal"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.TestPlatform",
+        "title": "Test platform",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Provide the test functions.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "5407bf314dad8b67e640543709346a90",
+        "installBytes": 2724104,
+        "zipBytes": 959283,
+        "published": "2022-12-27T15:32:50.550802Z",
+        "kind": "Core components",
+        "tags": [
+            "TestPlatform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.Debugger",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Features.Container",
+        "title": "Container integration",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Enable container integration.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "36d874428030c24fec2e1fe8045f93b7",
+        "installBytes": 3506453,
+        "zipBytes": 1223497,
+        "published": "2022-12-27T15:32:41.891161Z",
+        "kind": "Core components",
+        "tags": [
+            "Container"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 8,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.ApiTester",
+        "title": "API test",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-CORE",
+        "description": "Test Web APIs during development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "36c0d46773ffde2ed7d64665ef86bfeb",
+        "installBytes": 2789788,
+        "zipBytes": 1019910,
+        "published": "2022-12-27T15:31:29.180596Z",
+        "kind": "Test platform",
+        "tags": [
+            "API",
+            "Test",
+            "Platform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 7,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.TestPlatform",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    }
+]

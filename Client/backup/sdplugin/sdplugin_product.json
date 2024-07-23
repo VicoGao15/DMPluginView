@@ -1,0 +1,168 @@
+//http://sdplugin.devmagic.com/api/v3/product/getpackages?packageType=SDSDK&version=22.0
+[
+    {
+        "id": "SnapDevelop",
+        "title": "DevMagic Studio Preview",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK",
+        "description": "A highly-productive C# IDE with powerful tools for EF Core, API development, and Web development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "caf31fb71fd1c3b6c68f9b63e3e39b0b",
+        "installBytes": 897654258,
+        "zipBytes": 387335679,
+        "published": "2022-12-27T23:45:55.980842Z",
+        "kind": "Product",
+        "tags": [],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 13,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [
+            {
+                "id": "SnapDevelop.Environments.NETSDK",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "preDependencies": [],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Features.Account",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.SourceControl",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Extensions",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.FindAndReplace",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Resources",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.WebBrowser",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Terminal",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.StartPage",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.SolutionExplorer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Resources",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Output",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Options",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Management",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Layout",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Editor",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Deploy",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.DotNet",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Debugger",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Compiler",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.ProjectSystem",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.1.0-alpha">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <StartupCommand>npm run serve</StartupCommand>
+    <StartupCommandWorkingDirectory>
+    </StartupCommandWorkingDirectory>
+    <BuildCommand>npm run build</BuildCommand>
+    <BuildCommandWorkingDirectory>
+    </BuildCommandWorkingDirectory>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="**" Exclude="*.esproj;**\node_modules\**" />
+  </ItemGroup>
+</Project>

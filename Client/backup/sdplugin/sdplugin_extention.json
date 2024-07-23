@@ -1,0 +1,1342 @@
+//http://sdplugin.devmagic.com/api/v3/product/getpackages?packageType=SDSDK-EXTENSION
+[
+    {
+        "id": "SnapDevelop.Json",
+        "title": "JSON development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop JSON files.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "f08757f1156032bedc7b865fb4596a10",
+        "installBytes": 8672649,
+        "zipBytes": 3089678,
+        "published": "2022-12-27T15:31:47.468269Z",
+        "kind": "Development support",
+        "tags": [
+            "Json"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.LspCore",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.PkgManager.NuGet",
+        "title": "Nuget package management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Visually manage Nuget packages.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "70ce95a7c38d5ed02c257a32cdb5ca44",
+        "installBytes": 4489385,
+        "zipBytes": 1702139,
+        "published": "2022-12-27T15:32:07.203398Z",
+        "kind": "Coding tools",
+        "tags": [
+            "Nuget"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [
+            {
+                "id": "SnapDevelop.Environments.NuGet",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.PkgManager",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.PasteSpecial",
+        "title": "PasteSpecial",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Convert copied XML, JSON to C# entities, structures or protocol buffers.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "4b87e4b0c2c8fe75a9d42d58dd61aaa2",
+        "installBytes": 2534668,
+        "zipBytes": 921044,
+        "published": "2022-12-27T15:32:07.750584Z",
+        "kind": "Coding tools",
+        "tags": [
+            "PasteSpecial"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Resx",
+        "title": "RESX resource management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Visually manage .resx resource files.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "8dae8c94e625c22d387480560a270e23",
+        "installBytes": 2572813,
+        "zipBytes": 945350,
+        "published": "2022-12-27T15:32:08.306452Z",
+        "kind": "Coding tools",
+        "tags": [
+            "Resx"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Git",
+        "title": "DevMagic Studio Git",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Support Git source code management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "09b178f83a33e5133ceb1a234183f82a",
+        "installBytes": 36418860,
+        "zipBytes": 13648689,
+        "published": "2022-12-27T15:32:11.065512Z",
+        "kind": "Coding tools",
+        "tags": [
+            "Git"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.SourceControl",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.VisualSVN",
+        "title": "DevMagic Studio SVN",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Support SVN source code management.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "31ba96603c28a4c7f0a1c187dec3bcb8",
+        "installBytes": 31937782,
+        "zipBytes": 13441684,
+        "published": "2022-12-27T15:32:13.808918Z",
+        "kind": "Coding tools",
+        "tags": [
+            "SVN"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.SourceControl",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Xml",
+        "title": "XML development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop XML files.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "e4e01214aa096bf466043545efd1b22b",
+        "installBytes": 2552838,
+        "zipBytes": 912098,
+        "published": "2022-12-27T15:32:24.263409Z",
+        "kind": "Development support",
+        "tags": [
+            "Xml",
+            "Web",
+            "Cloud"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.AspNetCore.WebApi",
+        "title": "ASP.NET Web API development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop ASP.NET Web APIs.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "c700a76c923e671e0fcdf10a783d667b",
+        "installBytes": 2651975,
+        "zipBytes": 962578,
+        "published": "2022-12-27T15:31:30.606516Z",
+        "kind": "Development support",
+        "tags": [
+            "ASP.NET"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DotNet",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Base64Convert",
+        "title": "Base64 Conversion",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Base64 conversion tool.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "19d32bd86dbd2c592d7421776a006a57",
+        "installBytes": 2491144,
+        "zipBytes": 900840,
+        "published": "2022-12-27T15:31:31.148522Z",
+        "kind": "Utilities",
+        "tags": [
+            "Base64Convert"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.CSharp",
+        "title": "C# development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Support development in C#.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "c6b2ad89afc82cd1fcb2aca22ff66747",
+        "installBytes": 17756684,
+        "zipBytes": 6079616,
+        "published": "2022-12-27T15:31:32.588564Z",
+        "kind": "Development support",
+        "tags": [
+            "C#"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DotNet",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Grpc",
+        "title": "gRPC development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Support gRPC development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "471aff4c72734b663db07b7ba624fc10",
+        "installBytes": 6904369,
+        "zipBytes": 2776223,
+        "published": "2022-12-27T15:31:45.962954Z",
+        "kind": "Development support",
+        "tags": [
+            "gRPC"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.LspCore",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.JWTDecode",
+        "title": "JWT Decode",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "JWT decoding tool.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "1256e54be2867d8797e828c118083fd3",
+        "installBytes": 2571392,
+        "zipBytes": 930837,
+        "published": "2022-12-27T15:31:48.016357Z",
+        "kind": "Utilities",
+        "tags": [
+            "JWTDecode"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.LowCode",
+        "title": "Low-Code",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Low code tool",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "6e74e82a0c569bb5c1b31ff5a1524efa",
+        "installBytes": 135910060,
+        "zipBytes": 52303245,
+        "published": "2022-12-27T15:32:03.196285Z",
+        "kind": "Low-Code",
+        "tags": [
+            "Low-Code"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.NetCoreDbg",
+        "title": "NetCoreDbg Debugger",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Debug for .NET Core runtime.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "7f12a2e640b1eca30b4d146c9b13254e",
+        "installBytes": 35307301,
+        "zipBytes": 13038024,
+        "published": "2022-12-27T15:32:05.940407Z",
+        "kind": "Debugger",
+        "tags": [
+            "Debugger",
+            ".NET"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.Debugger",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.PkgManager.Npm",
+        "title": "Node package management",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Visually manage Node packages.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "58546c4909eb174414695f6460978e60",
+        "installBytes": 2607750,
+        "zipBytes": 944425,
+        "published": "2022-12-27T15:32:06.518934Z",
+        "kind": "Coding tools",
+        "tags": [
+            "Npm"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.PkgManager",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Vue",
+        "title": "Vue development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop Vue apps.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "f5b2b34287ef1c2734df9f13d5552235",
+        "installBytes": 153899101,
+        "zipBytes": 35373390,
+        "published": "2022-12-27T15:32:20.378814Z",
+        "kind": "Development support",
+        "tags": [
+            "Vue"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Web",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Web",
+        "title": "Web development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop web-related projects using HTML, CSS, JavaScript, or TypeScript.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "d1b386c89f8c0085974a4f3098138328",
+        "installBytes": 77230452,
+        "zipBytes": 15422684,
+        "published": "2022-12-27T15:32:23.665137Z",
+        "kind": "Development support",
+        "tags": [
+            "Web"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.LspCore",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.PkgManager.Npm",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Xunit",
+        "title": "xUnit testing",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Use xUnit for integration testing.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "58594b5f0ee5b82acb323a7ed0e55427",
+        "installBytes": 11758430,
+        "zipBytes": 5288997,
+        "published": "2022-12-27T15:32:25.595641Z",
+        "kind": "Test platform",
+        "tags": [
+            "Xunit"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.TestPlatform",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.ApiTester",
+        "title": "API test",
+        "version": "22.0.0.1843",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Test Web APIs during development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "577ff3e3f616fb709784d5270498ca78",
+        "installBytes": 2789788,
+        "zipBytes": 1018807,
+        "published": "2022-12-21T15:34:50.180024Z",
+        "kind": "Test platform",
+        "tags": [
+            "API",
+            "Test",
+            "Platform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 9,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.TestPlatform",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.Sqlite",
+        "title": "SQLite database support",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide SQLite database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "683fd48264ac02ae92aca5b9cc96321e",
+        "installBytes": 22734876,
+        "zipBytes": 11271804,
+        "published": "2022-12-27T15:31:37.849957Z",
+        "kind": "Database support",
+        "tags": [
+            "SQLite",
+            "Database"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 11,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.WebApiTester",
+        "title": "Web API Tester",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "A tool for testing Web APIs.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "cc23fd655851c35af0ba12dfeabec749",
+        "installBytes": 6610037,
+        "zipBytes": 2325896,
+        "published": "2022-12-27T15:31:30.011973Z",
+        "kind": "Test platform",
+        "tags": [
+            "WebAPI",
+            "Test",
+            "Platform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 12,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.ApiTester",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.APISimulator",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.DBServer.SqlServer",
+        "title": "SQL Server database support",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide SQL Server database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "f7dfa078a51f81e01e2e16e4ec682b6c",
+        "installBytes": 7981701,
+        "zipBytes": 2948650,
+        "published": "2022-12-27T15:31:39.120629Z",
+        "kind": "Database support",
+        "tags": [
+            "SqlServer",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 9,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.APISimulator",
+        "title": "API mock server",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "API mock service provider.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "05d02e2d9a8482140cbddbdaccd47c37",
+        "installBytes": 8477241,
+        "zipBytes": 3368250,
+        "published": "2022-12-27T15:31:28.606461Z",
+        "kind": "Test platform",
+        "tags": [
+            "API",
+            "Test",
+            "Platform"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 11,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": true,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.ApiTester",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.WebApiTester",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.Docker",
+        "title": "Docker development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide Docker development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "a2dc480dbcc6d90cac357320a94e694c",
+        "installBytes": 87788182,
+        "zipBytes": 25684981,
+        "published": "2022-12-27T15:31:44.366561Z",
+        "kind": "Development support",
+        "tags": [
+            "Docker"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 8,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.LspCore",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            },
+            {
+                "id": "SnapDevelop.Features.Container",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Yaml",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Kubernetes",
+        "title": "Kubernetes development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Support Kubernetes development.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "efb2fe780679eb8a6a1c93a6daead48f",
+        "installBytes": 103902986,
+        "zipBytes": 30502943,
+        "published": "2022-12-27T15:31:53.689896Z",
+        "kind": "Development support",
+        "tags": [
+            "Kubernetes",
+            "Cloud",
+            "Integration"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 8,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.Container",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": [
+            {
+                "id": "SnapDevelop.Yaml",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": false
+            }
+        ]
+    },
+    {
+        "id": "SnapDevelop.Yaml",
+        "title": "YAML development",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Develop YAML documents.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "90d36df095ca8b17cb04575e4c0ab53d",
+        "installBytes": 22021513,
+        "zipBytes": 6490526,
+        "published": "2022-12-27T15:32:27.129304Z",
+        "kind": "Development support",
+        "tags": [
+            "Yaml",
+            "Web",
+            "Cloud"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 8,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.LspCore",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.MySql",
+        "title": "MySQL database support",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide MySQL database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": true,
+        "hasLicense": true,
+        "license": "",
+        "licenseUrl": "https://aka.ms/deprecateLicenseUrl",
+        "md5": "e2ec7a2d6d65bfccb717084194cfc5b7",
+        "installBytes": 2785210,
+        "zipBytes": 1029052,
+        "published": "2022-12-27T15:31:33.777469Z",
+        "kind": "Database support",
+        "tags": [
+            "MySql",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 7,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": true,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.PostgreSQL",
+        "title": "PostgreSQL database support",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide PostgreSQL database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "c3cdd3c58a75f99980570cb61d3dc621",
+        "installBytes": 3859204,
+        "zipBytes": 1358706,
+        "published": "2022-12-27T15:31:35.040553Z",
+        "kind": "Database support",
+        "tags": [
+            "PostgreSQL",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 7,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.Oracle",
+        "title": "Oracle database support",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide Oracle database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": true,
+        "hasLicense": true,
+        "license": "",
+        "licenseUrl": "https://aka.ms/deprecateLicenseUrl",
+        "md5": "07c64fde99f0086894b0f95e6a328bbe",
+        "installBytes": 3092775,
+        "zipBytes": 1138346,
+        "published": "2022-12-27T15:31:34.414306Z",
+        "kind": "Database support",
+        "tags": [
+            "Oracle",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 7,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": true,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.MongoDB",
+        "title": "MongoDB database support",
+        "version": "22.0.0.1843",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide MongoDB database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "ae11464695f7b7e804091cba62666363",
+        "installBytes": 12978139,
+        "zipBytes": 4854534,
+        "published": "2022-12-21T15:34:56.823002Z",
+        "kind": "Database support",
+        "tags": [
+            "MongoDB",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 17,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.Odbc",
+        "title": "ODBC driver database support",
+        "version": "22.0.0.1843",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide ODBC connection support (For connecting to SQL Anywhere, Adaptvie Server Enterprise, or HANA).",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "bedd62f5b61337f951a647fa7fbd2258",
+        "installBytes": 4761208,
+        "zipBytes": 1801653,
+        "published": "2022-12-21T15:34:58.176717Z",
+        "kind": "Database support",
+        "tags": [
+            "ODBC",
+            "Driver"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 17,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.DBServer.Informix",
+        "title": "Informix database support",
+        "version": "22.0.0.1843",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Provide Informix database support.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": true,
+        "hasLicense": true,
+        "license": "",
+        "licenseUrl": "https://aka.ms/deprecateLicenseUrl",
+        "md5": "38c2bb9e456f7e8f0473056f6057ea31",
+        "installBytes": 17710703,
+        "zipBytes": 8056919,
+        "published": "2022-12-21T15:34:55.557651Z",
+        "kind": "Database support",
+        "tags": [
+            "Informix",
+            "DatabaseServer"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 17,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": true,
+        "envDependencies": [],
+        "preDependencies": [
+            {
+                "id": "SnapDevelop.Features.DBServer",
+                "version": "[1.0.0,)",
+                "isSelected": true,
+                "isOptional": true
+            }
+        ],
+        "includePackages": []
+    },
+    {
+        "id": "SnapDevelop.GuidGenerator",
+        "title": "GUID creator",
+        "version": "22.0.0.1849",
+        "packageType": "SDSDK-EXTENSION",
+        "description": "Automatically generate GUID in multiple formats.",
+        "releaseNotes": "",
+        "isRequireLicenseAcceptance": false,
+        "hasLicense": false,
+        "license": "",
+        "licenseUrl": "",
+        "md5": "9e88d7893a451ad7d76cb2f01c6b07dc",
+        "installBytes": 2496264,
+        "zipBytes": 903622,
+        "published": "2022-12-27T15:31:46.531019Z",
+        "kind": "Utilities",
+        "tags": [
+            "GUIDCreator"
+        ],
+        "authors": [
+            "Appeon"
+        ],
+        "minClientVersion": "",
+        "compatibleVersion": "",
+        "summary": "",
+        "downloads": 6,
+        "isPrerelease": false,
+        "hasEmbeddedIcon": false,
+        "hasReadme": false,
+        "envDependencies": [],
+        "preDependencies": [],
+        "includePackages": []
+    }
+]
